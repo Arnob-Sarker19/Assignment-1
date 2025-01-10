@@ -1,5 +1,5 @@
 body{
-    font-family: "Bebas Neue", serif;    
+    font-family: "Teko", serif;
     margin: 0;
     padding: 0;
     background-color: rgb(245, 245, 245);
@@ -9,10 +9,11 @@ header .container{
     /* background-color: #fff; */
     display: flex;
     justify-content: space-between;
+    margin: 3%;
     align-items: center;
     /* border-bottom: 1px solid #ddd; */
 }
-header h1{
+header h2{
     font-size: 25px;
     margin: 0;
 }
@@ -26,5 +27,186 @@ header button{
     cursor: pointer;
 }
 header button:hover{
-    border-color: ;
+    background-color: rgba(114, 217, 23, 0.788);
+}
+.hero {
+    background-color: #c1e4cd;
+    margin: 5%;
+    border-radius: 20px;
+        padding: 40px ;
+}
+.bd{
+    color: rgba(14, 14, 14, 0.5);
+font-family: Fira Sans;
+font-size: 24px;
+font-weight: 500;
+line-height: 29px;
+letter-spacing: 0%;
+text-align: left;
+}
+.hero-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.hero-text {
+    max-width: 50%;
+}
+.hero-text h2 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.hero-text button {
+    background-color: rgb(0, 106, 80);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.hero button:hover{
+    background-color: rgb(77, 200, 32);
+}
+.hero-image {
+    max-width: 40%;
+}
+.hero-image img {
+    max-width: 100%;
+    height: auto;
+}
+.pillars, .vision {
+    padding: 40px;
+    text-align: center;
+}
+
+.pillars h3, .vision h3 {
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+.pillars .grid, .vision .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+.pillars .card, .vision .card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.pillars .card img, .vision .card img {
+    max-width: 50px;
+    margin-bottom: 15px;
+}
+
+.pillars .card h4, .vision .card h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.pillars .card p, .vision .card p {
+    font-size: 14px;
+    color: #555;
+}
+
+.pillars .card1, .vision .card1 {
+    background-color: rgba(84, 144, 245, 0.2);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.pillars .card1 img, .vision .card1 img {
+    max-width: 50px;
+    margin-bottom: 15px;
+}
+
+.pillars .card1 h4, .vision .card1 h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.pillars .card1 p, .vision .card1 p {
+    font-size: 14px;
+    color: #555;
+}
+
+.vision .card1 button {
+    margin-top: 10px;
+    background-color: rgb(84, 144, 245);
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.pillars .card2, .vision .card2 {
+    background-color: rgb(198, 228, 214);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.pillars .card2 img, .vision .card2 img {
+    max-width: 50px;
+    margin-bottom: 15px;
+}
+
+.pillars .card2 h4, .vision .card2 h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.pillars .card2 p, .vision .card2 p {
+    font-size: 14px;
+    color: #555;
+}
+
+.vision .card2 button {
+    margin-top: 10px;
+    background-color: rgb(9, 161, 92);
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+ .pillars .card3, .vision .card3 {
+    background-color: rgb(247, 235, 207);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.pillars .card3 img, .vision .card3 img {
+    max-width: 50px;
+    margin-bottom: 15px;
+}
+
+.pillars .card3 h4, .vision .card3 h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.pillars .card3 p, .vision .card3 p {
+    font-size: 14px;
+    color: #555;
+}
+
+.vision .card3 button {
+    margin-top: 10px;
+    background-color: rgb(255, 194, 57);
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
 }
