@@ -259,11 +259,10 @@ margin-bottom: -20px;
     color: #333;
     cursor: pointer;
     border-radius: 5px;
-    transition: all 0.3s ease;
 }
 
 .donation-options button:hover {
-    background-color: #e0e0e0;
+    background-color: #968ddf;
 }
 
 .donation-options button.active {
@@ -277,7 +276,7 @@ margin-bottom: -20px;
 }
 
 .other-amount input {
-    width: 200px;
+    width: 500px;
     padding: 10px;
     font-size: 1rem;
     border: 1px solid #ccc;
@@ -297,11 +296,10 @@ margin-bottom: -20px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    transition: background-color 0.3s ease;
 }
 
 .donate-now button:hover {
-    background-color: #005c46;
+    background-color: #88e2cd;
 }
 
 
