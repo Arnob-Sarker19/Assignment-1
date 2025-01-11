@@ -1,18 +1,20 @@
 body{
-    font-family: "Teko", serif;
-    margin: 0;
+
+        font-family: "Fira Sans", serif;
+        font-weight: 500;
+        font-style: normal   ;
+         margin: 0;
     padding: 0;
     background-color: rgb(245, 245, 245);
 }
 header .container{
     padding: 20px;
-    /* background-color: #fff; */
+
     display: flex;
     justify-content: space-between;
     margin: 3%;
     margin-top: -5px;
     align-items: center;
-    /* border-bottom: 1px solid #ddd; */
 }
 header h2{
     font-size: 25px;
@@ -383,7 +385,8 @@ margin-bottom: -20px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     margin: 4%;
     padding: 40px;
-    /* max-width: 800px; */
+    margin-top: -10px;
+    margin-bottom: 50px;
 }
 
 .news-card-content {
@@ -394,9 +397,10 @@ margin-bottom: -20px;
 }
 
 .news-image {
-    width: 350px;
+    width: 400px;
     height: auto;
     border-radius: 10px;
+    margin-top: 50px;
 }
 
 .news-info {
@@ -407,7 +411,8 @@ margin-bottom: -20px;
 .news-info h3 {
     font-size: 1.5rem;
     color: #333;
-    margin-bottom: 2px;
+    margin-left: 20px;
+margin-bottom: -20px;
 }
 
 .news-sourcse {
@@ -415,28 +420,28 @@ margin-bottom: -20px;
     align-items: center;
     font-size: 0.9rem;
     color: #007b5e;
-    margin-bottom: 5px;
+    
 }
 
 .news-logo {
-    /* width: 20px; */
-    height: 20px;
-    margin-left: -50px;
+    margin-left: -10px;
+    margin-bottom: -10px;
 }
 
-.news-meta {
+p .news-meta {
     font-size: 0.9rem;
     display: flex;
     color: #777;
     align-items: center;
-    margin-left: 50px;
+    margin-bottom: -80px;
 }
 
 .news-description {
-    font-size: 1rem;
+    font-size: 100rem;
     color: #555;
-    /* margin-bottom: 15px; */
-    margin-left: 5%;
+
+    margin-left: 50px;
+    margin-top: -20px;
 }
 
 .news-button {
@@ -447,6 +452,8 @@ margin-bottom: -20px;
     background-color: #007b5e;
     border-radius: 5px;
     text-decoration: none;
+    margin-left: 20px;
+    margin-top: -20px;
 }
 
 .news-button:hover {
