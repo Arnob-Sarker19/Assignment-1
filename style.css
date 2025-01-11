@@ -1,5 +1,4 @@
 body{
-
         font-family: "Fira Sans", serif;
         font-weight: 500;
         font-style: normal   ;
@@ -226,7 +225,6 @@ margin-bottom: -20px;
     background-color: #3cd80d;
 }
 
-
 .donate-section {
     text-align: center;
     padding: 50px 20px;
@@ -305,8 +303,6 @@ margin-bottom: -20px;
     background-color: #88e2cd;
 }
 
-
-
 .newsletter {
     background-color: #dff5eb;
     padding: 50px 20px;
@@ -354,7 +350,6 @@ margin-bottom: -20px;
 .newsletter button:hover {
     background-color: #ce126d;
 }
-
 
 .news-section {
     text-align: center;
@@ -460,8 +455,6 @@ p .news-meta {
     background-color: #9b0cbf;
 }
 
-
-
 .footer-section {
     text-align: center;
     padding: 30px 20px;
@@ -484,9 +477,4 @@ p .news-meta {
 .footer-section .social-icons a img {
     width: 25px;
     height: 25px;
-    transition: transform 0.3s;
-}
-
-.footer-section .social-icons a img:hover {
-    transform: scale(1.2);
 }
